@@ -1,2 +1,57 @@
 env
 /env
+# Archivos de bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración de entorno
+.env
+.env.*
+
+# Logs
+*.log
+
+# Bases de datos temporales
+*.sqlite3
+*.db
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de prueba o builds
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cobertura de pruebas
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebooks (checkpoints)
+.ipynb_checkpoints/
+
+# Archivos de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+.dmypy.json
